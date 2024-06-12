@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #000;
+    color: white;
+    overflow-x: hidden;
+
+}
+.header-section nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.header-section nav .nav-logo{
+    width: 160px;
+
+}
+.header-section{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(IMAGES/header-image.png);
+    background-size: cover;
+    height: 100vh;
+    width:100%; 
+    border-bottom: 10px solid #303030;
+    
+}
+.Sign-inbutton{
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.English-button{
+    background-color: transparent;
+    color: rgb(212, 83, 83);
+    padding: 15px 40px;
+    margin-right: 20px;
+    border-color: rgb(182, 37, 37);
+}
+.header-content{
+    /* justify-content: center center; */
+    /* align-items: center center; */
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px; */
+}
+.Select-button{
+    border-radius: 10px;
+    background-color: rgb(204, 28, 28);
+    padding: 10px 40px;
+    border-color: transparent;
+}
+.English-button{
+    background-color: transparent;
+    color: white;
+    padding: 15px 40px;
+    margin-right: 20px;
+    border-color: white;
+
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    max-width: 650px;
+}
+.header-content h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+.signnn{
+    margin-top: 20px;
+}
+
+.email.signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 1px solid red;
+    outline: 0;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+.email-signup button{
+    background: #db0001;
+    border: none;
+    outline: 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 30px;
+
+ }
+
+
+/* section 1*/
+
+.strange{
+    padding: 25px 12%;
+    font-size: 22px;
+    border-bottom: 10px solid #303030;
+    
+
+}
+.strange {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    align-items: center;
+    margin: 20px;
+}
+
+/* .strange .text-category{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.strange .img-category{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+} */
+.strange .img-category img{
+    width:90%;
+    
+}
+.strange h2{
+font-size: 50px;
+font-weight: 400;
+margin-bottom:20px ;
+}
+#h2-text{
+    padding-right: 60px;
+
+}
+/*section 2*/
+
+.space{
+    display: flex ;
+    border-bottom: 10px solid #303030;
+    
+
+}
+.kiz{
+    margin-top: 200px;
+}
+.kiz h2{
+font-size: 30px;
+font-weight: 200;
+margin-bottom:20px ;
+}
+
+/*section 3*/
+
+.net{
+    display: flex;
+    border-bottom: 10px solid #303030;
+    
+
+}
+.man{
+  margin-top: 200px;
+  margin-left: 80px;  
+}
+.man h2{
+ font-size: 30px;
+font-weight: 200;
+margin-bottom:20px ;
+}
+
+/*section 4*/
+
+.boy{
+    display: flex;
+    border-bottom: 10px solid #303030;
+    
+}
+.point{
+    margin-top: 200px;
+}
+.point h2{
+ font-size: 30px;
+font-weight: 200;
+margin-bottom:20px ;
+}
+
+#SELECT-BUTTON{
+    background-color: transparent;
+    color: white;
+}
+
+option {
+    background-color: #000
+
+
+}
+
+.ready {
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 10px solid #303030;
+}
+.ready h6 {
+    font-weight: 400;
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+.fire{
+    margin-bottom: 20px;
+}
+.FAQ{
+
+    padding: 0;
+}
+.FAQ h2 {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 41px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 70%;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+  display: flex;  
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background:#303030 ;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position:absolute;
+    right:20px;
+    transition: transform 0.25s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    font-size: 15px;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.25s;
+}
+.accordion input[type="radio"]:checked + label +
+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + 
+label::after{
+    transform:rotate(135deg);
+}
+.feg .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 13px;
+}
+
+.footer-section{
+    margin: 0 80px;
+    display: flex;
+    gap: 150px;
+    margin-top: 55px;
+}
+.question p {
+    font-weight: 100;
+    padding: 10px;
+}
+.help p{
+    font-weight: 100;
+    padding: 10px;
+}
+.account p{
+    font-weight: 100;
+    padding: 10px;
+}
+.media p{
+    font-weight: 100;
+    padding: 10px;
+
+    
+}
+@media screen and (max-width: 992px) {
+ .header-section{
+    width: 100%;
+ } 
+ .header-content{
+    text-align: center;
+    margin-top: 100px;
+ }  
+ .header-content h1{
+    text-align: center;
+    margin: auto;
+    font-size:35px;
+    line-height: 40px;
+ }
+ .header-content p{
+    line-height: 23px;
+    font-size: 17px;
+ }
+ .email-signup button {
+    margin-top: 20px;
+    width: 69%;
+}
+.strange{
+    margin: 0;
+    padding: 20px;
+    display: block;
+    
+}
+.strange h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+}
+.strange p {
+        text-align: center;
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .strange .img-category img {
+        width: 100%;
+    } 
+    .space {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 22px;
+    }
+    .space div img {
+        width: 100%;
+    }
+    
+.kiz {
+    margin-top: 30px;
+}
+.kiz h2 {
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.kiz p {
+    text-align: center;
+    font-size: 20px;
+}
+.net {
+    display: block;
+}
+.man {
+    margin-top: 20px;
+    margin-left: 0;
+}
+.man h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+.man p {
+    text-align: center;
+    padding: 20px;
+    font-size: 19px;
+}
+.gee div img {
+    width: 100%;
+
+}
+.boy {
+   display: flex; 
+   flex-direction: column-reverse;
+}
+.boy h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.boy p {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.fem div img {
+    width: 100%;
+}
+.point {
+    margin-top: 20px;
+    font-size:20px ;
+}
+.FAQ h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 31px;
+    
+}
+.FAQ {
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.accordion {
+    margin: auto;
+    /* width: 100%; */
+    max-width: 90%;
+    margin-top: 35px;
+}
+.ready {
+    text-align: center;
+    font-size: 33px;
+    margin-top: 20px;
+
+}
+.fire {
+    margin-top: 20px;
+}
+.ready h6 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 82%;
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.footer-section{
+    margin: 0;
+    display: block;
+    margin-top: 30px;
+}
+.question {
+    text-align: center;
+}
+.help {
+    text-align: center;
+}
+.account {
+    text-align: center;
+}
+.media {
+    text-align: center;
+}
+select {
+    background: transparent;
+    color: #fff;
+    padding: 5px;
+    width: 25%;
+}
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
